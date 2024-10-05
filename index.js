@@ -59,3 +59,7 @@ $(document).ready(function (){
         $("#myCanvasContainer");
     }
 })
+
+on.style.display = 'none';
+off.style.display = 'block';
+soundTrack('on');
