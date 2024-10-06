@@ -60,6 +60,7 @@ $(document).ready(function (){
     }
 })
 
-on.style.display = 'none';
-off.style.display = 'block';
-soundTrack('on');
+on.style.display = 'block';
+off.style.display = 'none';
+soundCloud.style.color = "#08fdd8";
+myAudio.play();
