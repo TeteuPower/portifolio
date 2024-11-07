@@ -6,7 +6,7 @@ function pegarEmail() {
         'Telefone: ' + escape(document.getElementById('id_telefone').value) + quebraDeLinha +
         'Mensagem: ' + escape(document.getElementById('id_mensagem').value);
 
-    var link = "mailto:developer.fernanda.ingrid@gmail.com.br" +
+    var link = "mailto:tpowertech7@gmail.com.br" +
         "?cc=" + // Para add mais e-mails)
         "&subject=" + escape("Contato de Cliente") + // Assunto do e-mail
         "&body=" + body; // Texto do e-mail
