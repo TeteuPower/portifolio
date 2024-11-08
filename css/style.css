@@ -8568,6 +8568,7 @@ h1, h2, h3, h4, h5,
      }
       .ftco-about ul.about-info li span:first-child {
         font-weight: 600;
+        margin-right: 3px;
         color: #fff;
         width: 130px; }
 
@@ -8842,6 +8843,17 @@ textarea.form-control {
 .ftco-animate {
   opacity: 0;
   visibility: hidden; }
+
+.teste {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /*Diminuindo tamanho somente do h5*/
+  h5 {
+    font-size: 15px;
+  }
+}
 
 .bg-primary {
   background: #563D7C !important; }
